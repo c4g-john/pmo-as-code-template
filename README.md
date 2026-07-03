@@ -65,6 +65,16 @@ STATUS.md                 derived status snapshot
 The audit criteria, schemas, templates, and profiles ship inside docassert —
 run `docassert init` if you want to customize the standard for your org.
 
+## The execution bridge (optional)
+
+Once your user stories are approved, the bridge can run delivery from them:
+Feature issues per product requirement, Story sub-issues per story, a scope
+guard that flags any issue not matching the documents, and features that close
+when their last story lands. Set the repository variable `BRIDGE_ENABLED` to
+`true` and the three `bridge-*`/`feature-closeout` workflows take over.
+Scope stays in the documents; the guide on the site covers adding a Projects
+board on top.
+
 ## Learn more
 
 - **Quickstart & concepts:** https://c4g-john.github.io/pmo-as-code/
