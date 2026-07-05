@@ -1,7 +1,7 @@
 # PMO as Code — starter template
 
 Run your PMO from version-controlled, testable Markdown documents. This
-template gives you a working [PMO as Code](https://c4g-john.github.io/pmo-as-code/)
+template gives you a working [PMO as Code](https://pmoascode.com/)
 repository powered by [docassert](https://github.com/c4g-john/docassert):
 documents are **unit-tested on every pull request**, requirements trace end to
 end, and project status is **derived from the documents** — never typed into a
@@ -77,7 +77,7 @@ board on top.
 
 ## Learn more
 
-- **Quickstart & concepts:** https://c4g-john.github.io/pmo-as-code/
+- **Quickstart & concepts:** https://pmoascode.com/
 - **The tool:** https://github.com/c4g-john/docassert · https://docassert.com
 - **A fully built-out example:** https://github.com/c4g-john/pmo-as-code-pipeline
   (live dashboard [here](https://c4g-john.github.io/pmo-as-code-pipeline/))
